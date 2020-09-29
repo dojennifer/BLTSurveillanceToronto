@@ -1,0 +1,128 @@
+---
+title: "Blacklegged Tick Surveillance in Toronto from 2013-2019"
+author: "Jennifer Do"
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+
+
+<div id="jennifer-do" class="section level4">
+<h4>Jennifer Do</h4>
+<div id="section" class="section level5">
+<h5>2020-09-27</h5>
+</div>
+</div>
+<div id="abstract" class="section level1">
+<h1>Abstract</h1>
+<p>Blacklegged Tick Surveillance in Toronto monitors the number of ticks and positive cases of Lyme disease within the city. Here, we explore the Toronto Blacklegged Tick Surveillance dataset from 2013 to 2019. We find that higher numbers of Blacklegged Ticks (BLTs) correspond to higher cases of Lyme disease, particularly around Rouge Park and its associated trails. From our findings, we are able to determine that though rates of tick prevalence and positive cases of Lyme disease have decreased since 2017, areas around Rouge Park have higher likelihoods to exposure to BLTs.</p>
+</div>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Blacklegged Ticks (BLTs) are responsible for carrying the bacteria (Borrelia burgdorferi) which causes Lyme disease. The Toronto tick surveillance program monitors the overall risk of Lyme disease via the process of tick dragging in the spring and fall when adult ticks are active. Blacklegged ticks are often found in parks and trails with wooded and bushy areas, along with tall grasses and leaves.In Toronto, prominent areas of BLT presence include Rouge Park and its associated trails, in addition to Colonel Danforth Trail and Morningside Park. These areas had the highest number of positive BLT-associated Lyme disease cases associated to the number of BLTs from 2013-2019. By determining the living environment of BLTs this may help health workers, and park goers to understand the potential exposures and susceptibility to Lyme disease.</p>
+<p>To investigate whether Blacklegged Tick prevalence was increasing or decreasing throughout the years, a bar plot was constructed to visualize its rates. It is observed that numbers of BLTs increased drastically from 2015 to 2016, peaked in 2017 and have declined since. As well, the number of positive cases of Lyme disease is determined by observing a bar plot. A corresponding increase was observed from 2015 to 2016, with the highest rates of confirmed cases also being in 2017. Similarly, there was a decline in cases during subsequent years.The drastic increase in numbers from 2015 to 2016 may be due to the increase in numbers of places which underwent tick dragging in 2016. To determine where the greatest numbers of BLTs are situated, according to year, graphs were created to compare between the total number of BLTs and its location, and the number of positive cases of Lyme disease at various parks. Based on the repeated observation of Rouge Park, Colonel Danforth Trail, and Morningside Park featuring recurring increased numbers of both cases and ticks, graphs were create to observe the rates of both cases and tick population in these areas.</p>
+<p>The tick dragging locations were chosen based on suitable habitats and previously confirmed findings of blacklegged ticks. Despite spring and fall seasonal tick dragging efforts, the presence of blacklegged ticks may also still exist in other seasons, and in low numbers at a site previously found to have no ticks. Populations of ticks may also be present outside of the park locations which were surveyed, in other areas of Toronto. Future work may include tick dragging in areas which had not been previously surveyed, and tick dragging monthly rather than seasonally.</p>
+</div>
+<div id="data-discussion" class="section level1">
+<h1>Data Discussion</h1>
+<p>The dataset reviewed incorporated both designed and administrative data. The surveillance of BLTs keeps track of possible outbreak locations, while analysis of the number of positive cases tracks the spread of the Lyme disease. As the dataset showcases discrete variables and presents with categorical data, bar graphs are used.</p>
+</div>
+<div id="graphs" class="section level1">
+<h1>Graphs</h1>
+</div>
+<div id="graph-1" class="section level1">
+<h1>Graph 1</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="graph-2" class="section level1">
+<h1>Graph 2</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="graph-3" class="section level1">
+<h1>Graph 3</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+<div id="graph-4" class="section level1">
+<h1>Graph 4</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+<div id="graph-5" class="section level1">
+<h1>Graph 5</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+<div id="graph-6" class="section level1">
+<h1>Graph 6</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+</div>
+<div id="graph-7" class="section level1">
+<h1>Graph 7</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+<div id="graph-8" class="section level1">
+<h1>Graph 8</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="graph-9" class="section level1">
+<h1>Graph 9</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+</div>
+<div id="graph-10" class="section level1">
+<h1>Graph 10</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+</div>
+<div id="graph-11" class="section level1">
+<h1>Graph 11</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+</div>
+<div id="graph-12" class="section level1">
+<h1>Graph 12</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+</div>
+<div id="graph-13" class="section level1">
+<h1>Graph 13</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+</div>
+<div id="graph-14" class="section level1">
+<h1>Graph 14</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+</div>
+<div id="graph-15" class="section level1">
+<h1>Graph 15</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+</div>
+<div id="graph-16" class="section level1">
+<h1>Graph 16</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+</div>
+<div id="graph-17" class="section level1">
+<h1>Graph 17</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+</div>
+<div id="graph-18" class="section level1">
+<h1>Graph 18</h1>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+</div>
+<div id="graph-discussions" class="section level1">
+<h1>Graph Discussions</h1>
+<p>In 2017, the number of BLTs were at its highest in the city, and as expected, the number of positive cases for Lyme disease was at its peak, with 65 people testing positive for Lyme disease and 149 ticks found, as seen in Graph 1 &amp; 2. It is expected that between the years of 2013 to 2014, the number of positive cases attributed to ticks is minimal as few park locations were surveyed. Hence, the graphs for the number of BLTs from 2013-2019, and number of positive cases appear to be left skewed and bimodal (Graph 2) . The increase in park location surveillance reflects of the increase in locations of tick presence from 2015-2019, with 2019 having the greatest number of locations of tick presence (Graphs 3 - 12). Between 2016 to 2019, comparisons between tick locations, presence of ticks, and numbers of positive cases, indicated that areas of higher presence of ticks were attributed to greater numbers of positive cases for Lyme disease. Between 2016-2019, areas around Rouge Park, and its associated trails such as Rouge Park:Glen Eagle Vista Trail, and Upper Rouge Trail Park had the highest number of BLTs, and positive cases of Lyme disease. The Colonel Danforth Trail and Morningside Park were also seen to have recurring tick presence between 2015-2019 (Graphs 4, 6, 7, 9, 11). Locations of BLT presence had increased from 2015-2019 (Graphs 13-18). This may be attributed due to more park locations being surveyed. As a result, greater numbers of BLTs were found.</p>
+<p>The majority of park locations surveyed between 2013-2019 had found that minimal presence (often no presence) of BLTs and minimal positive cases of Lyme disease (&lt;2 positive cases).</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<ul>
+<li><p>Sharla Gelfand (2020). opendatatoronto: Access
+the City of Toronto Open Data Portal.
+<a href="https://sharlagelfand.github.io/opendatatoronto/" class="uri">https://sharlagelfand.github.io/opendatatoronto/</a>,
+<a href="https://github.com/sharlagelfand/opendatatoronto/" class="uri">https://github.com/sharlagelfand/opendatatoronto/</a>.</p></li>
+<li><p>Keller, Sally A., Stephanie S. Shipp, Aaron D. Schroeder, and Gizem Korkmaz, 2020, ‘Doing Data Science: A Framework and Case Study’ Harvard Data Science Review, 2 (1), <a href="https://doi.org/10.1162/99608f92.2d83f7f5" class="uri">https://doi.org/10.1162/99608f92.2d83f7f5</a></p></li>
+<li><p>Hadley Wickham, Romain François, Lionel Henry
+and Kirill Müller (2020). dplyr: A Grammar of
+Data Manipulation. R package version 1.0.2.
+<a href="https://CRAN.R-project.org/package=dplyr" class="uri">https://CRAN.R-project.org/package=dplyr</a></p></li>
+<li><p>H. Wickham. ggplot2: Elegant Graphics for Data
+Analysis. Springer-Verlag New York, 2016.</p></li>
+<li><p>Wickham et al., (2019). Welcome to the tidyverse. Journal of
+Open Source Software, 4(43), 1686,
+<a href="https://doi.org/10.21105/joss.01686" class="uri">https://doi.org/10.21105/joss.01686</a></p></li>
+</ul>
+</div>
